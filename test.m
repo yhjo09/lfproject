@@ -16,7 +16,7 @@ make_homography_image %  구해진 H행렬로 부터 새로운 이미지 만들기
 Newimage11=uint8(new_a2)/2+a1/2;
 figure;
   imshow(uint8(Newimage11));title('특징점 여러개');
-imwrite(uint8(Newimage11), 'sum_manypoint.jpg','jpg');
+imwrite(uint8(Newimage11), 'sum_homo_manypoint.jpg','jpg');
 
 Newimage12=a1/2+a2/2;
 figure;
